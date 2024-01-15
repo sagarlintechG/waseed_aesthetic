@@ -6,7 +6,7 @@ import logo from "../../public/icons/WELLNESS-01.svg"
 const Header = () => {
   return (
     <header  className={`fixed left-0 top-[1rem] z-[30] w-full sm:block px-4`}>
-         <div className=" bg-white py-3 rounded-[1.25rem] shadow-[0px_4px_29px_0px_rgba(0,_0,_0,_0.15)]  mx-auto flex flex-wrap items-center justify-between px-8 md:px-[3.31rem]">
+         <div className=" bg-[#242B44] py-3 rounded-[1.25rem] shadow-[0px_4px_29px_0px_rgba(0,_0,_0,_0.15)]  mx-auto flex flex-wrap items-center justify-between px-8 md:px-[3.31rem]">
         <section className="flex flex-row items-center justify-start">
           <Link href="/" className="inline-flex">
             <Image
